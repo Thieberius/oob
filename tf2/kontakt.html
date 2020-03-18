@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formular</title>
+    <style>
+        label {
+            display: inline-block;
+            width: 9rem;
+            vertical-align: top;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 8rem;
+        }
+
+        textarea {
+            min-height: 80px;
+        }
+
+        fieldset {
+            max-width: 20rem;
+            margin: auto;
+        }
+
+        .mittig {
+            text-align: center;
+        }
+        h1 {text-align: center;}
+    </style>
+</head>
+
+<body>
+    <h1>Formular</h1>
+<br><br><br><br><br><br><br><br><br><br>
+    <form action="#">
+        <fieldset>
+            <legend>Persönliche Daten</legend>
+            <p>
+                <label for="vorname">Vorname</label>
+                <input type="text" name="vorname" id="vorname">
+            </p>
+            <p>
+                <label for="nachname">Nachname</label>
+                <input type="text" name="nachname" id="nachname">
+            </p>
+            <p>
+                <label for="adresse">Adresse</label>
+                <input type="text" id="adresse" name="adresse">
+            </p>
+            <p>
+                <label for="ort">PLZ / Ort</label>
+                <input type="text" id="ort" name="ort">
+            </p>
+            <p>
+                <label for="tel">Telefon</label>
+                <input type="text" id="tel" name="tel">
+            </p>
+            <p>
+                <label for="nachricht">Ihre Nachricht</label>
+                <textarea name="nachricht" id="nachricht"></textarea>
+            </p>
+
+            <p class="mittig">
+                <input type="submit" value="abschicken">
+                <input type="reset" value="zurücksetzen">
+            </p>
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

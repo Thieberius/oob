@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+/*  Animation von Objekten
+.box {
+    border-radius: 15px;
+    border: 1px solid black;
+    width: 33px;
+    height: 33px;
+    background-color: darkorange;
+    overflow: hidden;
+    cursor: pointer;
+    text-indent: 5px;
+
+    white-space: nowrap;
+    transition: ease-in-out;
+    transition-property: width, background-color, border-color;
+    transition-duration: 0.5s, 0.5s, 0.5s;
+    transition-delay: 0s, 0.5s, 0.5s;
+}
+
+.box:hover {
+    width: 220px;
+    border-color: black;
+    background-color: whitesmoke;
+}
+
+.box:active {
+    color: #ffffff;
+}
+
+.symbol {
+    line-height: 115%;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+}
+
+.mail {
+    vertical-align: 12%;
+    font-family: 'Luckiest Guy';
+}  */
+
+/* Allgemein Design */
+p {
+
+    text-align: center;
+    border: 5px solid black;
+    min-width: 150px;
+    max-width: 1500px;
+    margin: auto;
+    padding: 19px;
+    line-height: 28px;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px black;
+    color: #F6AE0C
+}
+body {
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom right, #9d5422, #EB912B);
+    background-attachment: fixed;
+}
+
+header,
+main,
+footer,
+#wrapper {
+    border: 0px solid #000000;
+}
+
+#wrapper {
+    max-width: 1500px;
+    margin: 0px auto;
+}
+/*
+li a.active {
+    color: black;
+    background-color: darkorange;
+}
+
+li a:hover:not(.active) {
+    color: black;
+    background-color: white;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 25px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+
+.dropdown-content {
+    display: none;
+    position: static;
+    min-width: 50px;
+    top: 200px z-index: 1;
+    text-align: center
+}
+
+
+.dropdown-content a {
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition: ease-in-out;
+
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+    float: right;
+} */
+/* Header */
+header,
+header {
+    margin: 0;
+    text-align: center;
+
+}
+/* Navigation */
+
+header nav ul {
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    
+}
+
+/*
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    width: 15rem;
+    color: black;
+    background-color: darkorange;
+    padding: 2px 2px;
+    border: 1px solid black;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+} */
+/*
+header nav ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+
+
+/* Main */
+
+main {
+    font-family: 'Luckiest Guy', cursive;
+
+}
+
+
+/* Footer */
+
+footer {
+
+    border: 0px solid black;
+    margin: auto;
+}
+
+footer ul {
+    margin: auto;
+    text-align: top;
+    text-align: center;
+
+}
+
+footer ul iframe {
+    box-shadow: 15px 8px;
+    align-items: center;
+    margin: auto;
+
+}
